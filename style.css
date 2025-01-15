@@ -1,28 +1,158 @@
 @font-face {
-    font-family: FontR;
-    src: url(./fonts/672a4022c04412b253b0aeb9_Gabarito-Regular.woff2);
+  font-family: FontR;
+  src: url(./fonts/672a4022c04412b253b0aeb9_Gabarito-Regular.woff2);
 }
 
 @font-face {
+  font-family: FontB;
+  src: url(./fonts/672a4022c04412b253b0ae96_Gabarito-Bold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: FontR;
+  font-weight: 600;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* hero section*/
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* effect.json*/
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+}
+
+.unicorn-embed {
+  width: 100%;
+  height: 100%;
+}
+
+/* overlay -  hero*/
+
+.overlay-hero {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  width: 100%;
+  height: 10vh;
+  padding: 0vw 2vw;
+  display: flex; /* Add this line to enable flexbox */
+  justify-content: center; /* Add this line to center the content */
+  align-items: center; /* Add this line to vertically center the content */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+  font-family: FontB !important;
+  margin: 0 1rem;
+}
+
+nav a:active {
+  color: hsl(0, 37%, 86%);
+}
+nav a:hover {
+  color: hsl(0, 37%, 86%);
+}
+
+/* content-hero*/
+.content-hero {
+  width: 100%;
+  height: 90vh;
+}
+
+.animated-logo {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.btm-content{
+    width: 100%;
+    height: 20%;
+    padding: 0 2vw;
+    display: flex;
+}
+
+.btm-content h3{
+    font-size: 1.5rem;
+    width: 100%;
     font-family: FontB;
-    src: url(./fonts/672a4022c04412b253b0ae96_Gabarito-Bold.woff2);
+    color: #fff !important;
+    margin: 0 1rem;
+
 }
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: FontR;
-    font-weight: 600;
+.right-socials-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
 
-html, body{
-    height: 100%;
-    width: 100%;
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-#main{
-    width: 100%;
-    min-height: 100vh;
+.social-links li {
+  margin-right: 20px;
 }
 
+.social-links a {
+    color: hsl(0, 0%, 100%);
+
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #666;
+}
+
+.social-links i {
+  font-size: 18px;
+}
+
+.social-links img {
+  color: hsl(0, 0%, 100%);
+  margin-left: 10px;
+  width: 20px; /* adjust the width to match the other social links */
+  height: 20px; /* adjust the height to match the other social links */
+ 
+}
+
+.social-links img:hover {
+  opacity: 10; /* adjust the opacity to match the other social links */
+}

@@ -30,7 +30,7 @@
                     "min": 992,
                     "props": {
                         "height": 127,
-                        "textContent": "Gravity Coding",
+                        "textContent": "Kunal Khare",
                         "fontStyle": "800",
                         "fontFamily": "Gabarito",
                         "fontSize": 107,
@@ -110,7 +110,7 @@
             "fontStyle": "800",
             "fontWeight": "400",
             "textAlign": "center",
-            "textContent": "Gravity Coding", 
+            "textContent": "Kunal Khare", 
             "gradientAngle": 0,
             "gradientType": "linear",
             "coords": [
@@ -210,7 +210,7 @@
         }
     ],
     "options": {
-        "name": "Gravity Coding",
+        "name": "Kunal Khare",
         "fps": 60,
         "dpi": 1.5,
         "scale": 1,
