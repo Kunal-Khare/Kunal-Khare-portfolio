@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: FontR;
   src: url(./fonts/672a4022c04412b253b0aeb9_Gabarito-Regular.woff2);
@@ -86,7 +88,7 @@ nav a:hover {
 /* content-hero*/
 .content-hero {
   width: 100%;
-  height: 90vh;
+  height: 85vh;
 }
 
 .animated-logo {
@@ -95,7 +97,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 
 .btm-content{
@@ -108,15 +110,20 @@ nav a:hover {
 .btm-content h3{
     font-size: 1.5rem;
     width: 100%;
+    height: 100%;
+    text-align: center;
     font-family: FontB;
-    color: #fff !important;
+    color: hsl(60, 100%, 98%) !important;
     margin: 0 1rem;
 
 }
 
+
+/* Footer Styles */
+
 .right-socials-footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center !important;
   margin-top: 10px;
 }
 
@@ -132,8 +139,7 @@ nav a:hover {
 }
 
 .social-links a {
-    color: hsl(0, 0%, 100%);
-
+  color: hsl(0, 0%, 100%);
   transition: color 0.2s ease;
 }
 
@@ -145,14 +151,27 @@ nav a:hover {
   font-size: 18px;
 }
 
-.social-links img {
-  color: hsl(0, 0%, 100%);
-  margin-left: 10px;
-  width: 20px; /* adjust the width to match the other social links */
-  height: 20px; /* adjust the height to match the other social links */
- 
+footer {
+  background-color: #ff8337;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  justify-content: center !important;
 }
 
-.social-links img:hover {
-  opacity: 10; /* adjust the opacity to match the other social links */
+footer p {
+  margin-bottom: 8px !important;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer {
+  overflow-x: hidden !important;
 }
